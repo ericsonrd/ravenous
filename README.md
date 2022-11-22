@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+# Ravenous
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Practice website made in React. It interacts with the Yelp API to give search results of Food & Drink businesses through search, which can be filtered by Best Match, Highest Rated or Most Reviewed.
 
-## Available Scripts
+## Instructions
 
-In the project directory, you can run:
+Follow these instructions to install on local environment and test it out.
 
-### `npm start`
+### 1. Get a Yelp API Key
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* Go to [Yelp Developers](https://www.yelp.com/developers)
+* Log In or Create an account if necessary.
+* From the links on page, click on “Yelp Fusion”.
+* Click on Manage API access on the top-right.
+* You’ll land on the “Create Page” section, if not, click on it on the left menu.
+* Fill out the required fields, agree to Terms and Conditions and create the app.
+* Copy the API Key presented to you (remember to keep it safe and never share it with anyone).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 2. Setting up Website
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* Clone this repository by [Clicking here](https://github.com/ericsonrd/ravenous.git), or on “Code” button above.
+* Open in VSCode or any other IDE
+* Open .env file in Root folder
+* Paste your Yelp API Key on the variable placeholder and save.
+* Launch server (npm start)
+  * If server is already running, restart to apply the API Key
+  * If presented with a CORS Issue on console, open link from error and click on button presented to get access.
