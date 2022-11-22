@@ -18,10 +18,14 @@ Follow these instructions to install on local environment and test it out.
 
 ### 2. Setting up Website
 
-* Clone this repository by [Clicking here](https://github.com/ericsonrd/ravenous.git), or on “Code” button above.
+* Clone this repository:
+  * Run `git clone https://github.com/ericsonrd/ravenous.git` on your terminal, or
+  * Click on “Code” button above.
 * Open in VSCode or any other IDE
 * Open .env file in Root folder
 * Paste your Yelp API Key on the variable placeholder and save.
 * Launch server (npm start)
   * If server is already running, restart to apply the API Key
   * If presented with a CORS Issue on console, open link from error and click on button presented to get access.
+
+<sub>ercsn</sub>
